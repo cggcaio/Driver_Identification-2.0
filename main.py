@@ -20,7 +20,7 @@ from functions import clusters_of_maneuvers
 # Utilizar somente quando quiser normalizar os dados novamente
 #print('Normalizing data')
 #original_data = pd.read_csv("https://raw.githubusercontent.com/cggcaio/Anomaly-Detection-for-Driver-Identification/master/Data_Bases/KIA_DB/Driving%20Data(KIA%20SOUL)_(150728-160714)_(10%20Drivers_A-J).csv")
-#data_normsssalized = (normalize(original_data))
+#data_normsalized = (normalize(original_data))
 
 #data_normalized = pd.read_csv("https://raw.githubusercontent.com/cggcaio/Anomaly-Detection-for-Driver-Identification/master/Data_Bases/KIA_DB/data_normalized.csv")
 data_normalized = pd.read_csv('data_normalized.csv')
