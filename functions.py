@@ -8,7 +8,7 @@ from sklearn.svm import OneClassSVM
 from sklearn.ensemble import IsolationForest
 from scipy.spatial import distance
 
-# Receives the DB and normalizes the data by column
+# Receivess the DB and normalizes the data by column
 def normalize(original_data):
   data = original_data.drop(columns=['Time(s)', 'Class', 'PathOrder'])
   scaler = preprocessing.MinMaxScaler()
